@@ -1,0 +1,39 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-bottom: 4px solid #007bff;
+  }
+  
+  .header .text-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .header h3 {
+    font-size: 1.2rem;
+    color: #555;
+    font-weight: normal;
+  }
+  
+
+  .header .personal-photo-container {
+    flex-shrink: 0; 
+  }
+  

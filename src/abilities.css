@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .abilities-container {
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .abilities-wrapper {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .abilities-category {
+    flex: 1;
+    min-width: 250px; 
+  }
+  
+  .abilities-container h2 {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #007bff;
+    display: inline-block;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+  
+  .abilities-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .abilities-container ul li {
+    font-size: 1rem;
+    color: #555;
+    padding: 10px 15px;
+    background: #f0f8ff;
+    border-radius: 8px;
+    margin: 5px 0;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .abilities-container ul li:hover {
+    background: #007bff;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  @media (max-width: 768px) {
+    .abilities-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .abilities-category {
+      width: 100%; 
+    }
+  
+    .abilities-container h2 {
+      font-size: 1.4rem;
+    }
+  
+    .abilities-container ul li {
+      font-size: 0.9rem;
+    }
+  }
+  

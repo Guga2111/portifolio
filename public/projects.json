@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "title": "Portfólio",
+      "description": "Meu portfólio pessoal desenvolvido em React.",
+      "url": "https://github.com/Guga2111/portifolio"
+    },
+    {
+      "id": 2,
+      "title": "FutSpring",
+      "description": "API para web app de gerenciamento de peladas",
+      "url": "https://github.com/Guga2111/fut-spring"
+    },
+    {
+      "id": 3,
+      "title": "Kanban Board",
+      "description": "Aplicação Kanban feita com React e Spring Boot.",
+      "url": "https://github.com/Guga2111/kanban-board"
+    }
+  ]
+  
