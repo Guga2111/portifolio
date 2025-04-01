@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +20,7 @@
     justify-content: center;
   }
   
-  .header h1 {
+  .header h1 {  
     font-size: 2rem;
     color: #333;
     margin-bottom: 5px;
